@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { TeamAmerica } from './../../client/src/components/TeamAmerica';
-
+import swal from 'sweetalert2';
 // I had to copy paste the API json into this file to fix a bug
 const team = {
   presidents: [
